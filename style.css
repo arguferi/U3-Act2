@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #121818;
+}
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    font-family:  'Balsamiq Sans', cursive;
+    font-size: 15vw;
+    background-color: peachpuff;
+}
+
+.controls {
+    margin-top: 16px;
+}
+
+.button {
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.set-alarm {
+    background-color: #498AFB;
+}
+.clear-alarm {
+    background-color: #FF3860;
+}
